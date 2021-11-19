@@ -1,0 +1,2 @@
+DELETE FROM links
+WHERE id = 8;

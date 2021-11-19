@@ -1,0 +1,2 @@
+ALTER TABLE links 
+RENAME TO urls;

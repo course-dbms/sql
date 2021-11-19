@@ -1,0 +1,3 @@
+DELETE FROM links
+WHERE id IN (6,5)
+RETURNING *;

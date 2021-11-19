@@ -1,0 +1,3 @@
+DELETE FROM links
+WHERE id = 7
+RETURNING *;

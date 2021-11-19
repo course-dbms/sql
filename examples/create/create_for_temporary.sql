@@ -1,0 +1,2 @@
+CREATE TEMP TABLE mytemp(c INT);
+SELECT * FROM mytemp;

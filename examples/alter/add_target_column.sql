@@ -1,0 +1,2 @@
+ALTER TABLE links 
+ADD COLUMN target VARCHAR(10);

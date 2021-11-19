@@ -1,0 +1,3 @@
+ALTER TABLE links 
+ALTER COLUMN target
+SET DEFAULT '_blank';
