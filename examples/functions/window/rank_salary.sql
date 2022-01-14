@@ -4,7 +4,7 @@ SELECT
 	salary,
 	RANK () OVER (
 		PARTITION BY department_name
-		ORDER BY salary
+		ORDER BY salary desc
 	)
 FROM employees
 INNER JOIN departments USING (department_id);

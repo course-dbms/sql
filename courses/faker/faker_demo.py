@@ -1,7 +1,7 @@
 import psycopg2
 
 from faker import Faker
-fake = fake = Faker(['tr_TR', 'en_Us'])
+fake = Faker(['tr_TR', 'en_Us'])
 
 try:
   connection = psycopg2.connect(user="postgres",
